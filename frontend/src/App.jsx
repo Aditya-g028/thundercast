@@ -234,7 +234,7 @@ function App() {
       {/* Header */}
       <header className="header">
         <div>
-          <h1>⚡ THUNDERCAST</h1>
+          <h1>⚡ MEGHARAKSHAK</h1>
           <p className="prototype-label">
           PROTOTYPE • SIMULATED WEATHER DATA
           </p>  
