@@ -202,7 +202,7 @@ function App() {
 
   const [loading, setLoading] = useState(true);
   useEffect(() => {
-  fetch("http://127.0.0.1:8000/forecast")
+  fetch("https://thundercast.onrender.com/forecast")
     .then((response) => response.json())
     .then((data) => {
       const formattedForecast = data.times.map((time, index) => ({
